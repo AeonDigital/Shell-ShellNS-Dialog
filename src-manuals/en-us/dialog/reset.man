@@ -1,0 +1,3 @@
+Restarts the dialog information array.
+
+@return void

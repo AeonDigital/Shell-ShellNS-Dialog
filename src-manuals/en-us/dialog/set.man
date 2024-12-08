@@ -1,0 +1,14 @@
+Defines the dialog information for an application.
+
+@param string $1
+::
+  - default : "raw"
+  - list    : !SHELLNS_DIALOG_TYPE_COLOR
+::
+Dialogue type.
+
+
+@param string $2
+Message that will be shown.
+
+@return void

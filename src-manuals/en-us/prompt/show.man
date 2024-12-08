@@ -1,0 +1,3 @@
+Shows the configured prompt to the user and waits for a response.
+
+@return string

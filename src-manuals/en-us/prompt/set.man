@@ -1,0 +1,66 @@
+Defines the prompt rules to be shown to the user.
+
+@param string $1
+::
+  - default : "raw"
+  - list    : !SHELLNS_DIALOG_TYPE_COLOR
+::
+Main message dialogue type.
+
+
+@param string $2
+Message that will be shown.
+
+
+@param bool $3
+::
+  - default : "1"
+  - list    : SHELLNS_PROMPT_OPTION_BOOL
+::
+If the value is required.
+
+
+@param ?string $4
+Default value if the user enter a empty value.
+
+
+@param ?bool $5
+::
+  - default : "1"
+  - list    : SHELLNS_PROMPT_OPTION_BOOL
+::
+Whether the value entered by the user should be trimmed.
+
+
+@param ?assoc $6
+Name of an associative array that contains the accepted values and their
+respective labels.
+
+
+@param bool $7
+::
+  - default : "0"
+  - list    : SHELLNS_PROMPT_OPTION_BOOL
+::
+Indicates when to use only the keys of the associative array
+provided in **$6**.
+
+
+@param bool $8
+::
+  - default : "1"
+  - list    : SHELLNS_PROMPT_OPTION_BOOL
+::
+If the comparison of values should be done in case sensitive.
+
+
+@param bool $9
+::
+  - default : "1"
+  - list    : SHELLNS_PROMPT_OPTION_BOOL
+::
+Whether the comparison of values should take into account the glyphs
+present in ASCII characters.
+
+
+@return void

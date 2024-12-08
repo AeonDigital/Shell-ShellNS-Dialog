@@ -1,0 +1,4 @@
+Assembles the dialog message for the user for the last existing record
+in **SHELLNS_DIALOG_DATA**.
+
+@return string

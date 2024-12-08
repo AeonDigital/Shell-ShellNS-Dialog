@@ -1,0 +1,3 @@
+Prints the value selected by the user for the last prompt run.
+
+@return string
